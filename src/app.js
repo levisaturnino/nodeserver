@@ -5,8 +5,8 @@ const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 
 const app = express();
-// conexao com banco de dados na url mongo labhe
-mongoose.connect('mongodb://iwater:iwater01@ds141812.mlab.com:41812/iwater');
+// conexao com banco de dados na url mongo lab
+mongoose.connect('');
 
 const Product = require('../models/product.js');
 
